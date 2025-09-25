@@ -24,5 +24,3 @@ dist-ssr
 *.sw?
 
 # Ignore specific files/folders
-src/projects/ToDoList
-src/App.jsx
