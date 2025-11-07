@@ -1,0 +1,18 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.blogpost {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.blogpost > :nth-child(2) {
+  flex: 1;
+}

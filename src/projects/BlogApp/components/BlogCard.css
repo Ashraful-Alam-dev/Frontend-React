@@ -1,0 +1,77 @@
+.blogcard {
+  background-color: #e6f4f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.blogcard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.title, .topic {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #2a85c7;
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.topic {
+  font-style: italic;
+  font-weight: 500;
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.blogcard p {
+  font-size: 1rem;
+  color: #444;
+  margin: 0 0 6px 0;
+  text-align: left;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: auto;
+}
+
+.edit,
+.delete {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit {
+  background-color: #a8dfae;
+  color: #1f4f2e;
+}
+
+.edit:hover {
+  background-color: #91cf99;
+}
+
+.delete {
+  background-color: #f6a5a1;
+  color: #7a1e1a;
+}
+
+.delete:hover {
+  background-color: #ef8c87;
+}
